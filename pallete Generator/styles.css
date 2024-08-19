@@ -1,0 +1,57 @@
+.pix{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(68, 227, 255);
+    border: 10px solid rgba(255, 255, 255, 0.796);
+    border-bottom-width: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.568);
+}
+#main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+p{
+    color: rgb(0, 0, 0);
+    margin-top: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    margin-top: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255) ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.792);
+    
+}
+button:active{
+    scale: 0.9;
+    transform: translateY(4px);
+    box-shadow:none;
+}
+body{
+    background-color: rgba(13, 14, 14, 0.79);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-weight: 15;
+    font-size: 50px;
+    text-shadow:5px 5px 5px rgba(0, 0, 0, 0.863);
+    font-family:Arial, Helvetica, sans-serif ;
+}
+h1::selection{
+    color: rgb(255, 255, 255);
+    background-color:rgba(40, 224, 34, 0.726);
+}
+p::selection{
+   
+    background-color:rgba(40, 224, 34, 0.726);
+}
