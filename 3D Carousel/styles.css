@@ -1,0 +1,137 @@
+a {
+  color:#9ADE7B;
+  text-decoration: none;
+    padding: 10px 20px;
+    border-radius:10px;
+    background-color:transparent;
+    border:0.5px solid #9ADE7B;
+    font-size: 20px;
+  }
+  #wat{
+    outline:none;
+    width: 150px;
+    height: 50px;
+    border-radius:7px;
+    border:2px solid #EEC759;
+    margin-top: 350px;
+    margin-right: 600px;
+    position: absolute;
+    background-color:transparent;
+    color:#EEC759;
+    font-size: 20px;
+    transition: 0.5s;
+}
+  #reg{
+    outline:none;
+    width: 150px;
+    height: 40px;
+    border-radius:10px;
+    border:2px solid #EEC759 ;
+    color:#EEC759;
+    font-size: 20px;
+    background-color:transparent
+  }
+  #in:focus {
+    background-color: lightblue;
+    width:400px;
+  }
+  #in{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #F3B95F;
+    background: transparent;
+    top:100px;
+    left: 200px;
+    text-align:center;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  #nav {
+  width: 100%;
+   margin-top:15px;
+  display: flex;
+  justify-content: right;
+overflow:auto;
+  }
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    body {
+   background-color:black;
+     font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    #nme {
+      color: #EEC759;
+  
+      margin-top:200px;
+      margin-right: 1000px;
+      font-size: 50px;
+      font-weight: 200;
+    }
+    #glass{
+  
+      height: 430px;
+      width: 100%;
+      background-color:transparent;
+      border: 1px solid white;
+      border-radius:10px;
+  
+      position: relative;
+      perspective: 1000px;
+      display: flex;
+      justify-content: center;
+      top: 200px;
+      box-shadow: 0 0 10px #B08968;
+  
+      
+    }
+  
+    img {
+      height: 375px;
+      width: 250px;
+      object-fit: cover;
+      transition: all 0.6s ;
+      border:1px solid white;
+      border-radius:5px;
+      margin-left: 400px;
+      transform-origin:center bottom;
+      perspective: 0px;
+      
+    }
+    #wat:hover{
+      border-radius:40px;
+      border: 2px solid #EEC759;
+    }
+    #baki,#nanami,#naruto,#rengoku,#tanji{
+      position: absolute ;
+    }
+    #baki,#nanami,#naruto,#rengoku{
+      filter:grayscale(100%);
+    }
+    #baki{
+      transform: rotate(20deg);
+      box-shadow:0px 0px 30px #FFCBA4;
+    }
+    #nanami{
+      transform: rotate(-20deg);
+      box-shadow:0px 0px 30px skyblue;
+    }
+      #naruto{
+      transform: rotate(10deg);
+      box-shadow:0px 0px 30px orange;
+    }
+      #rengoku{
+      transform: rotate(-10deg);
+      box-shadow:0px 0px 30px green;
+    }
+      #tanji{
+      box-shadow:0px 0px 30px red;
+      scale:1.3;
+    }
+   
+    
