@@ -1,0 +1,154 @@
+body{
+    background-image: url(" pictures/back.jpg");
+    background-color: rgba(58, 69, 69, 0.919);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main{
+    height:500px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px;
+    grid-template-rows:100px 100px 100px 100px;
+
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    border-radius: 10px;
+    backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    border-radius: 10px;
+}
+#scoreboard{
+    height: 300px;
+    width: 275px;
+    position: absolute;
+    backdrop-filter: blur(28px);
+    border: 1px solid white;
+    border-radius: 10px;
+ margin-left: 1000px;
+
+}
+.sec{
+    height:500px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows:100px 100px 100px 100px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 120px;
+   
+}
+#final{
+    height: 300px;
+    width: 0px;
+    border-radius: 10px;
+    background-color: rgba(36, 214, 36, 0.942);
+    display: grid;
+    position: absolute;
+    box-shadow: 0 0 100px rgb(3, 3, 3);
+    object-fit: contain;
+    transition: 1s;
+}
+#yscore{
+    display: none;
+    transition: 1s;
+}
+#butt{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:green ;
+    border: none;
+    font-size: 20px;
+    color: white;
+    display: none;
+    transition: 1s;
+}
+#restart{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:green ;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+#won{
+    display: none;
+    font-family: myfont;
+    font-size: 50px;
+    font-weight: 20;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.63); 
+    color: rgb(253, 252, 252);
+    transition: 1s;
+}
+.tile{
+    height:90px ;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+   position: static;
+   margin-top: 35px;
+   
+   
+   
+}
+
+.cover{
+    
+    height:90px;
+    width: 90px;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.637);
+    margin-top: 35px;
+    object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.248);
+}
+@font-face{
+    font-family: myfont;
+    src:url(Avengers.ttf)
+}
+#h1{
+    position: absolute;
+    top: 0;
+    font-family: myfont;
+    font-size: 65px;
+    font-weight: 20;
+    
+    color:rgba(72, 220, 228, 0.885);
+    
+    
+}
+#current{
+    font-family: myfont;
+    font-size: 30px;
+    font-weight: 10;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.63);
+    color: rgb(184, 244, 184);
+
+    
+}
+#status{
+    font-family: myfont;
+    font-size: 50px;
+    font-weight: 10;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.63);
+    color: green;
+}
+button:active{
+    scale:0.9;
+    transform: translateY(3px);
+}
